@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import CustomNavbar from '@/components/layouts/navbar'
+import { Providers } from './providers'
 
 export const metadata: Metadata = {
     title: 'NextJS Starter Kit',
@@ -13,7 +15,13 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body>{children}</body>
+            <body>
+                <Providers>
+                    <CustomNavbar />
+
+                    {children}
+                </Providers>
+            </body>
         </html>
     )
 }
