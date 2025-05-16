@@ -27,17 +27,17 @@ export default function CustomNavbar() {
                 <div className='hidden gap-3 sm:flex'>
                     <NavbarItem>
                         <Link color='foreground' href='#'>
-                            Features
+                            Home
                         </Link>
                     </NavbarItem>
                     <NavbarItem isActive>
                         <Link aria-current='page' color='secondary' href='#'>
-                            Customers
+                            Services
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
                         <Link color='foreground' href='#'>
-                            Integrations
+                            About Us
                         </Link>
                     </NavbarItem>
                 </div>
