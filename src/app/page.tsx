@@ -73,7 +73,7 @@ export default function Home() {
     return (
         <main className=''>
             {/* hero section */}
-            <header className='relative flex h-[100dvh] w-full items-start justify-center overflow-hidden'>
+            <header className='relative flex h-[100dvh] w-full items-center justify-center overflow-hidden'>
                 {/* glob */}
                 <div className='absolute -right-28 -top-28 z-30 h-[24rem] w-[24rem] rounded-full bg-blue-500/20 blur-3xl'></div>
 
@@ -101,7 +101,7 @@ export default function Home() {
                 {/* Radial gradient for the container to give a faded look */}
                 <div className='pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black'></div>
 
-                <div className='relative z-30 mt-12 flex flex-col items-start justify-center gap-2 p-4'>
+                <div className='relative z-30 mb-12 flex flex-col items-start justify-center gap-2 p-4'>
                     <p className='relative bg-gradient-to-b from-neutral-800 to-neutral-900 bg-clip-text py-8 text-6xl font-extrabold text-transparent dark:from-neutral-200 dark:to-neutral-300 sm:text-7xl lg:text-8xl'>
                         Digital <br /> Learning <br /> Centre
                     </p>
